@@ -2,12 +2,12 @@
 
 namespace Yuana;
 
-use Yuana\Api\{
+use Yuana\Api\Sdk\{
     V2\Api as ApiV2,
     V21\Api as ApiV21
 };
 
-class QiscusApi
+class QiscusSdkApi
 {
     private $config = [];
     private $client;

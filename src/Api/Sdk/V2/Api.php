@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuana\Api\V2;
+namespace Yuana\Api\Sdk\V2;
 
 use Yuana\Api\BaseApi;
 

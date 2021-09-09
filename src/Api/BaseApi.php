@@ -47,7 +47,8 @@ class BaseApi
     private function parseResponse(Response $response)
     {
         $body = (string) $response->getBody();
-        return json_decode($body);
+        $result = json_decode($body);
+        return $result ?? $body;
     }
 
 

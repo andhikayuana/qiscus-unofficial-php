@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuana\Api\V21;
+namespace Yuana\Api\Sdk\V21;
 
 use GuzzleHttp\Client;
 use Yuana\Api\BaseApi;
@@ -413,7 +413,5 @@ class Api extends BaseApi
     }
 
 
-
-    //todo
 
 }
