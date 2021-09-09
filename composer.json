@@ -1,0 +1,25 @@
+{
+    "name": "andhikayuana/qiscus-unofficial",
+    "description": "qiscus REST API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ANDHIKA YUANA",
+            "email": "andhika@yuana.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yuana\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": [
+            "@php -S localhost:5000 -t example"
+        ]
+    }
+}
