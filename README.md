@@ -1,4 +1,4 @@
-# Qiscus Chat SDK REST API
+# *Unofficial* Qiscus Chat SDK & Multichannel REST API
 
 ## Requirements
 - PHP
